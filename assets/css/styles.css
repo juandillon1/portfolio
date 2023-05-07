@@ -6,7 +6,7 @@
 
 body {
     background-size: cover;
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/bg.webp');
     background-attachment: fixed;
     color: var(--white);
 }
@@ -15,7 +15,6 @@ body {
 /* mobile */
 @media (max-width: 767px) {
     body {
-        background-image: url('../images/bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
