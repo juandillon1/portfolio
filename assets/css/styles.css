@@ -1,0 +1,43 @@
+:root {
+    --white: #F1F2EB;
+    --red: #cc005f;
+    --black: rgba(74, 74, 72, 0.4);
+}
+
+body {
+    background-size: cover;
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+    color: var(--white);
+}
+
+
+/* mobile */
+@media (max-width: 767px) {
+    body {
+        background-image: url('../images/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh !important;
+    }
+}
+
+/* mobile-landscape */
+@media (max-width: 767px) and (orientation: landscape) {
+}
+
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-size: 100% 100%;
+    }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+}
+
+  
+  
